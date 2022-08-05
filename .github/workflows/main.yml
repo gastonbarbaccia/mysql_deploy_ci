@@ -10,6 +10,7 @@ on:
 jobs:
   Importacion_SQL:
     uses: gtadam/mysql-deploy-action@v1
+    runs-on: ubuntu-latest
     with:
       DATABASE_HOST: 'db.host.io'
       DATABASE_PORT: '3306'
