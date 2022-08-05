@@ -8,7 +8,6 @@ on:
 
   workflow_dispatch:
 
-
 jobs:
   Import_SQL:
     runs-on: ubuntu-latest
@@ -18,9 +17,9 @@ jobs:
         uses: actions/checkout@v2
       - uses: gtadam/mysql-deploy-action@v1
         with:
-          DATABASE_HOST: '3.20.252.141'
+          DATABASE_HOST: 'sql234.main-hosting.eu'
           DATABASE_PORT: '3306'
           DATABASE_NAME: 'u463129590_github_actions'
-          DATABASE_USERNAME: 'admin'
+          DATABASE_USERNAME: 'u463129590_github_actions'
           DATABASE_PASSWORD: 'Ns2b7bfqbf!'
           DATABASE_SCRIPT: 'script.sql'
