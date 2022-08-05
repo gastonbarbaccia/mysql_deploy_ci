@@ -2,7 +2,11 @@
 -- Eliminar todas las tablas
 --
 
-DROP TABLE  `usuarios`;
+
+DROP DATABASE `u463129590_github_actions`;
+
+
+CREATE DATABASE  `u463129590_github_actions`;
 
 -- --------------------------------------------------------
 
