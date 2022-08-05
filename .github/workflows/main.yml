@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
       - uses: gtadam/mysql-deploy-action@v1
         with:
-          DATABASE_HOST: 'database-testing.capjeqwtb4vf.us-east-2.rds.amazonaws.com'
+          DATABASE_HOST: '3.20.252.141'
           DATABASE_PORT: '3306'
           DATABASE_NAME: 'u463129590_github_actions'
           DATABASE_USERNAME: 'admin'
