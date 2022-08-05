@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - uses: calxus/mysql-deploy-action@v1
+      - uses: gtadam/mysql-deploy-action@v1
         with:
           DATABASE_HOST: 'sql234.main-hosting.eu'
           DATABASE_PORT: '3306'
