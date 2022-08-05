@@ -17,8 +17,9 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   Import_SQL:
-    - name: MySQL Deploy Action
-      uses: calxus/mysql-deploy-action@v1
+    name: MySQL Deploy Action
+    steps:
+    - uses: calxus/mysql-deploy-action@v1
       with:
         DATABASE_HOST: 'db.host.io'
         DATABASE_PORT: '3306'
