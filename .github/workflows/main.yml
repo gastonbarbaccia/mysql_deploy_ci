@@ -8,7 +8,7 @@ on:
   
     
 jobs:
-  Importacion de Base de datos:
+  Importacion_SQL:
     uses: gtadam/mysql-deploy-action@v1
     with:
       DATABASE_HOST: 'db.host.io'
