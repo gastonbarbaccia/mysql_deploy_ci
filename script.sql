@@ -5,8 +5,9 @@
 
 DROP DATABASE `u463129590_github_actions`;
 
-
 CREATE DATABASE  `u463129590_github_actions`;
+
+USE `u463129590_github_actions`;
 
 -- --------------------------------------------------------
 
