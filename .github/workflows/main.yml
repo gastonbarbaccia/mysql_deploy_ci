@@ -17,9 +17,9 @@ jobs:
         uses: actions/checkout@v2
       - uses: calxus/mysql-deploy-action@v1
         with:
-          DATABASE_HOST: 'db.host.io'
+          DATABASE_HOST: 'sql234.main-hosting.eu'
           DATABASE_PORT: '3306'
-          DATABASE_NAME: 'mydb'
-          DATABASE_USERNAME: 'root'
-          DATABASE_PASSWORD: 'password'
+          DATABASE_NAME: 'u463129590_github_actions'
+          DATABASE_USERNAME: 'u463129590_github_actions'
+          DATABASE_PASSWORD: 'Ns2b7bfqbf!'
           DATABASE_SCRIPT: 'script.sql'
