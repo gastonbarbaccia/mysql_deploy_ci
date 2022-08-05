@@ -1,0 +1,19 @@
+name: Pipeline | DevSecOps - Heroku
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  
+    
+jobs:
+  name: Importacion de Base de datos
+  uses: gtadam/mysql-deploy-action@v1
+  with:
+    DATABASE_HOST: 'db.host.io'
+    DATABASE_PORT: '3306'
+    DATABASE_NAME: 'mydb'
+    DATABASE_USERNAME: 'root'
+    DATABASE_PASSWORD: 'password'
+    DATABASE_SCRIPT: 'script.sql'
